@@ -492,6 +492,26 @@ li
     overflow: hidden;
 }
 
+.centerText {
+    
+    position: relative;
+    display: block;
+    top: 50%;
+    /*margin-top: -90%;*/
+    padding: 0px 10px 0px 10px;
+    height: 2000px;
+    text-align: left;
+    /*line-height: 2000px;*/
+    /*default text attributes*/
+    color: #003366;
+    font-family: 'Open Sans' ,sans-serif;
+    font-weight: bold;
+    font-size: large;
+
+    /*background-color: #FF0000;*/
+    overflow: hidden;
+}
+
 .centerWrap {
     
     line-height: 0;

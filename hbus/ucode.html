@@ -1,0 +1,59 @@
+<!-- hbussd web control interface -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HBUS</title>
+    <style type="text/css">
+      <!--
+          @import url("static/style.css");
+        -->
+    </style>
+    
+    <meta name="viewport" content="user-scalable=no" />
+    <link rel="apple-touch-icon" href="static/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon-precomposed" href="static/apple-touch-icon-precomposed.png"/>
+    
+    <link rel="stylesheet" href="static/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+  </head>
+  
+  <div class="hbusContainer">
+
+    <div class="hbusTopContainer">
+
+      <header class="hbusMHeader">
+        <section>
+          <a href="/" class="hbusLogo">HBUS</a>
+        </section>
+        <aside>
+        </aside>
+      </header>
+      
+    </div>
+    
+    <section class="hbusDeviceDescription">
+      <a class="left">Microcode</a>
+      <div class="right"><a href="index.html">&lt;back&gt;</a></div> 
+    </section>
+    
+    <div class="hbusMMain">
+      
+      <span class="centerText">
+
+	<p style="color:#FFA700; font-weight:Extra-Bold; font-size:xx-large" > Microcode means device independence </p>
+	<p> HBUS microcode is a local automation paradigm that provides for micro-automations locally. This means that the user can program the device to act independently of the master, interacting with its own resources. This also covers master temporary failures, helping the automation environment to continue functioning at least partially, instead of collapsing. </p>
+
+	<p style="color:#FFA700; font-weight:Extra-Bold; font-size:xx-large"> Microcode is user-programmable </p>
+	<p> The microcode unit is optional in HBUS devices. It provides a simple instruction interpreter for a soft CPU. Users can write code for this and upload it to the device. Inside this code the user has access to the device's inputs and outputs as set by the developer. This means that the device can act upon events without having to wait for a round-trip event message to the master. </p>
+
+	<p style="color:#FFA700; font-weight:Extra-Bold; font-size:xx-large"> Microcode is re-programmable </p>
+	<p> You can upload new code whenever it suits you, using the bus to do so. Just use the block transfer protocol, called endpoints. </p>
+	
+      </span>
+      
+    </div>
+    
+  </div>
+  
+</html>
